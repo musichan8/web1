@@ -17,6 +17,25 @@ a:hover {
     color: #e4b532;
 }
 
+/* Footer */
+
+footer {
+    background-color: #333;
+    color: #999;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-link {
+    color: #AB810A;
+    text-decoraton: none;
+}
+
+.footer-link:hover {
+    color: #D69E00;
+    text-decoration: underline;
+}
+
 /* Hero */
 
 .hero {
@@ -60,6 +79,15 @@ a.hero-card-link {
 .main-content {
     padding: 20px;
     text-align: center;
+}
+
+/* About */
+
+.about-list-container {
+    border: 4px solid #ddd;
+    text-align: left;
+    padding: 20px;
+    margin: 20px;
 }
 
 /* Home */
