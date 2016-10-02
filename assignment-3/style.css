@@ -61,3 +61,19 @@ a.hero-card-link {
     padding: 20px;
     text-align: center;
 }
+
+/* Home */
+
+.card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    width: 3000px;
+    margin: 20px auto;
+}
+
+.card-title{
+    padding: 10px 20px;
+    margin: 20px 0 10px 0;
+    font-size: 24px;
+}
+
