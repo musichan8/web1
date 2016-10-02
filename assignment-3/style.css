@@ -190,3 +190,11 @@ dd {
     padding: 20px;
     margin: 20px;
 }
+
+.txt:hover {
+    color: blue;
+}
+
+.txt-2:hover {
+    color: green;
+}
