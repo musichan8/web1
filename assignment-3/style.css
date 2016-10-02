@@ -17,32 +17,12 @@ a:hover {
     color: #e4b532;
 }
 
-/* Footer */
-
-footer {
-    background-color: #333;
-    color: #999;
-    padding: 20px;
-    text-align: center;
-}
-
-.footer-link {
-    color: #AB810A;
-    text-decoraton: none;
-}
-
-.footer-link:hover {
-    color: #D69E00;
-    text-decoration: underline;
-}
-
 /* Hero */
 
 .hero {
     background-color: #16445f;
     text-align: center;
     overflow: auto;
-
 }
 
 .hero-card {
@@ -80,6 +60,28 @@ a.hero-card-link {
     padding: 20px;
     text-align: center;
 }
+
+/* Footer */
+
+footer {
+    background-color: #333;
+    color: #999;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-link {
+    color: #AB810A;
+    text-decoraton: none;
+}
+
+.footer-link:hover {
+    color: #D69E00;
+    text-decoration: underline;
+}
+
+
+
 
 /* About */
 
