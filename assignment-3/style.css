@@ -67,7 +67,7 @@ a.hero-card-link {
 .card {
     background-color: #fff;
     border: 1px solid #ddd;
-    width: 3000px;
+    width: 300px;
     margin: 20px auto;
 }
 
@@ -77,3 +77,6 @@ a.hero-card-link {
     font-size: 24px;
 }
 
+.homecard{
+    width: 300px;
+}
