@@ -172,3 +172,12 @@ dd {
     margin-left: 20px;
     margin-bottom: 20px;
 }
+
+/* Assignments */
+
+.assignment-list {
+    border: 4px solid #ddd;
+    padding: 20px;
+    margin: 20px auto;
+    width: 860px;
+}
