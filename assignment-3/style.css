@@ -31,5 +31,33 @@ a:hover {
     color: #efefef;
     padding: 50px;
     width: 800px;
-    margin: 1000px auto 50px auto;
+    margin: 50px auto 50px auto;
+}
+
+.hero-card-title {
+    font-family: georgia, serif;
+    margin: 0;
+    font-size: 50px;
+}
+
+.hero-card-description {
+    font-family: georgia, serif;
+    font-size: 30px;
+    font-eight: 300;
+    margin: 20px 0;
+}
+
+a.hero-card-link {
+    text-decoration: none;
+    color: #efefef;
+    font-size: 18px;
+    border: 2px solid #efefef;
+    padding: 5px 20px;
+}
+
+/* Main Content */
+
+.main-content {
+    padding: 20px;
+    text-align: center;
 }
