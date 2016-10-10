@@ -1,0 +1,46 @@
+body{
+    background-color: #3399cc;
+}
+
+.large {
+    color: #ffffff;
+    font-size: 100px;
+    font-family: 'Abril Fatface', cursive;
+    text-align: center;
+    max-width: 600px;
+    border: 1px solid yellow;
+    line-height: 2em;
+    text-decoration: underline;
+}
+
+.smaller {
+    color: #ffffff;
+    font-family: 'Kaushan Script'. cursive;
+}
+
+a {
+    color: #efefef;
+    font-size: 20px;
+    text-decoration: none;
+    border: 1px solid rgba(255, 255, 255, 0);
+    padding: 10px 20px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    margin: 0 30px;
+    transition: all 2s ease;
+}
+
+a:hover {
+    border-color: #ffffff;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+                    
+.large:hover {
+    color: pink;
+}
+
+
+
+
+*how tomake link
+andex
