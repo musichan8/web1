@@ -50,7 +50,7 @@ body {
 .index-img {
     background-color: #ffffff;
     text-align: center;
-    max-height: 500px;
+    height: 400px;
     background-image: url('image/_MG_7611.jpg');
     background-repeat: no-repeat;
     background-size: 1000px;
@@ -60,7 +60,7 @@ body {
 .about-img {
     background-color: #ffffff;
     text-align: center;
-    max-height: 500px;
+    height: 400px;
     background-image: url('image/john_main.png');
     background-repeat: no-repeat;
     background-size: 1000px;
@@ -70,7 +70,7 @@ body {
 .article-img {
     background-color: #ffffff;
     text-align: center;
-    max-height: 500px;
+    height: 400px;
     background-image: url('image/_MG_0890.jpg');
     background-repeat: no-repeat;
     background-size: 1000px;
@@ -80,7 +80,7 @@ body {
 .gear-img {
     background-color: #ffffff;
     text-align: center;
-    max-height: 500px;
+    height: 400px;
     background-image: url('image/tripod.jpg');
     background-repeat: no-repeat;
     background-size: 1000px;
@@ -90,7 +90,7 @@ body {
 .contact-img {
     background-color: #ffffff;
     text-align: center;
-    max-height: 500px;
+    height: 400px;
     background-image: url('image/_MG_7356.jpg');
     background-repeat: no-repeat;
     background-size: 1000px;
