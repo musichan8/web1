@@ -1,0 +1,101 @@
+        <footer>
+         <table class="footer-table">
+          
+          <thead>
+            <tr>
+              <th class="label"></th>
+              <th class="size">Site map</th>
+              <th class="size">Contact</th>
+              <th class="size">Social Media</th>
+            </tr>
+          </thead>
+          
+          <tbody>
+            <tr>
+              <td class="label">
+              </td>  
+              <td><a href="about.html">About</a></td>
+              <td>Email</td>
+              <td><a href="https://www.facebook.com/john.han.9250">Facebook</a></td>
+            </tr>
+            
+            <tr>
+              <td class="label">
+              </td>  
+              <td><a href="article.html">Article</a></td>
+              <td>Mobile</td>
+              <td><a href="http://instagram.com/jhpht8">Instagram</a></td>
+            </tr>
+
+            <tr>
+              <td class="label">
+              </td>  
+              <td><a href="gear.html">Gear</a></td>
+              <td></td>
+              <td><a href="http://johnhanphoto.com">Portfolio</a></td>
+            </tr>
+
+            <tr>
+              <td class="label">
+              </td>  
+              <td><a href="contact.html">Contact</a></td>
+              <td></td>
+              <td></td>
+            </tr>
+
+            <tr>
+              <td class="label">
+              </td>  
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>  
+          </tbody>
+
+         </table>
+        </footer>
+        
+        
+        
+        
+        
+        footer css
+        
+        
+        
+        .footer-table {
+    width: 700px;
+    border: 1px solid yellow;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer-table th {
+    padding: 10px;
+    color: #ffffff;
+    
+}
+
+.footer-table.size {
+    min-width: 150px;
+    font-size: 14px;
+    color: #ffffff;
+    
+}
+
+.footer-table td {
+    padding: 10px 50px;
+    vertical-align: top;
+    color: #ffffff;
+}
+
+.footer-table dd {
+    margin-left: 0;
+    font-style: italic;
+    font-size: 14px;
+    color: #ffffff;
+}
+
+.footer-table.label {
+    color: #ffffff;
+}
