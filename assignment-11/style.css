@@ -8,6 +8,7 @@ body {
     margin: 0;
     min-width: 1000px;
     position: center;
+    height: auto;
 }
 
 /* nav */
@@ -171,15 +172,16 @@ body {
 }
 
 footer {
-    height: 180px;
+    padding-top: 5px;
+    padding-bottom: 5px;
     background-color: #333;
     color: #999;
 }
 
 .footer-txt {
     text-align: center;
-    padding-top: 70px;
-    padding-bottom: 70px;
+    vertical-align: middle;
+    padding: auto;
 }
 
 a:link {
