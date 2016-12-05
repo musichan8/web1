@@ -20,19 +20,47 @@
                 <br>Feel free to ask!</h2>
             </div>
             
-        <div class="main-content">
+        <div class="contact-content">
           <div class="contact-cards">
-          </div>
+              <p>Feel free to contact me if you have a question.
+              <br>don't hesitate to reach me out!</p>
+              
+  <div id="form-div">
+    <form class="form" id="form1">
+      
+      <p class="name">
+        <input name="name" type="text" class="validate[required,custom[onlyLetter],length[0,100]] feedback-input" placeholder="Name" id="name" />
+      </p>
+      
+      <p class="email">
+        <input name="email" type="text" class="validate[required,custom[email]] feedback-input" id="email" placeholder="Email" />
+      </p>
+      
+      <p class="text">
+        <textarea name="text" class="validate[required,length[6,300]] feedback-input" id="comment" placeholder="Comment"></textarea>
+      </p>
+      
+      
+      <div class="submit">
+        <input type="submit" value="SEND" id="button-blue"/>
+        <div class="ease"></div>
+      </div>
+    </form>
+  </div>
+          
+          
         </div>  
         
-        <footer>
-            <p class="footer-txt">musichan8@gmail.com
-            <br><a href="http://johnhanphoto.com">johnhanphoto.com</a>
-            <br>
-            <br>© Copyright 2016 John Han Photography - John's Photo Academy
-            </p>
-        </footer>
-               
+          <footer class="contact-footer">
+              <p class="footer-txt">musichan8@gmail.com
+              <br><a href="http://johnhanphoto.com">johnhanphoto.com</a>
+              <br>
+              <br>© Copyright 2016 John Han Photography - John's Photo Academy
+              </p>
+          </footer>
+          
+        </div> 
+        
     </body>
     <style>
 #contact{border-bottom: black solid 3px;}
