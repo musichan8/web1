@@ -1,0 +1,537 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Open+Sans|Roboto|Source+Sans+Pro');
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    background-color: #ffffff;
+    color: #333;
+    margin: 0;
+    min-width: 1200px;
+    position: center;
+    height: auto;
+    min-height: 100%;
+}
+
+/* nav */
+
+.main-nav {
+    background-color: #ffffff;
+    font-size: 15px;
+    max-width: 1200px;
+    margin: auto;
+    text-align: right;
+}
+
+.nav-link {
+    text-decoration: none;
+    padding: 5px 5px;
+    border-radius: 3px;
+    margin: 5px;
+    display: inline-block;
+}
+
+.body-nav-link {
+    padding: 20px;
+}
+
+.body-nav-part {
+    padding: 0 10px;
+    text-decoration: none;
+    border-bottom: transparent solid 1px;
+    padding-bottom: 5px;
+}
+
+a:hover.body-nav-part {
+    border-bottom: black solid 3px;
+}
+
+#mode {
+    color: #252525;
+}
+
+#exposure {
+    color: #252525;
+}
+
+#lighting {
+    color: #252525;
+}
+
+#Tripod {
+    color: #252525;
+}
+
+#Strobe {
+    color: #252525;
+}
+
+#Modifier {
+    color: #252525;
+}
+
+#nav-teal {
+    color: #62B7BB;
+}
+
+a:hover#nav-teal {
+    color:#307376;
+}
+
+#nav-blue {
+    color: #288bcd;
+}
+
+a:hover#nav-blue {
+    color: #135c8d;
+}
+
+#nav-red {
+    color: #ee5573;
+}
+
+a:hover#nav-red {
+    color: #9a001f;
+}
+
+#nav-yellow {
+    color: #ffa73a;
+}
+
+a:hover#nav-yellow {
+    color: #d27a0e;
+}
+
+/* hero styles */
+
+.index-img {
+    background-color: #ffffff;
+    text-align: center;
+    height: 400px;
+    background-image: url('image/mg7611.jpg');
+    background-repeat: no-repeat;
+    background-size: 1200px;
+    background-position: center center;
+}
+
+.about-img {
+    background-color: #ffffff;
+    text-align: center;
+    height: 400px;
+    background-image: url('image/john_main.png');
+    background-repeat: no-repeat;
+    background-size: 1200px;
+    background-position: center center;
+}
+
+.article-img {
+    background-color: #ffffff;
+    text-align: center;
+    height: 400px;
+    background-image: url('image/mg0890.jpg');
+    background-repeat: no-repeat;
+    background-size: 1200px;
+    background-position: center center;
+}
+
+.gear-img {
+    background-color: #ffffff;
+    text-align: center;
+    height: 400px;
+    background-image: url('image/tripod.jpg');
+    background-repeat: no-repeat;
+    background-size: 1200px;
+    background-position: center center;
+}
+
+.contact-img {
+    background-color: #ffffff;
+    text-align: center;
+    height: 400px;
+    background-image: url('image/mg7356.jpg');
+    background-repeat: no-repeat;
+    background-size: 1200px;
+    background-position: center center;
+}
+
+.hero-h2 {
+    margin: auto;
+    padding: 105px;
+    font-size: 50px;
+    text-shadow: 2px 2px 4px #000000;
+    color: #ffffff;
+}
+
+/* content */
+
+.main-content {
+    text-align: center;
+    background-color: #ffffff;
+    height: auto;
+    min-height:100%;
+    margin: 0;
+    min-width: 1200px;
+    position: center;
+}
+
+.contact-content {
+    text-align: center;
+    background-color: #ffffff;
+    height: 800px;
+    margin: 0;
+    min-width: 1200px;
+    position: center;
+}
+
+/* card contents */
+
+.index-cards {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+a.card {
+    background-color: #fff;
+    box-shadow: 2px 2px 3px rgba(0,0,0,2);
+    width: 314px;
+    min-height: 322px;
+    margin: 10px;
+    text-decoration: none;
+    color: #333;
+    transition: all .2s ease;
+    display: inline-block;
+}
+
+.card:hover{
+    transform: scale(1.025);
+    box-shadow: 0px 2px 3px rgba(0,0,0,3);
+}
+
+.card-title{
+    padding: 0px 20px;
+    margin: 20px 0 10px 0;
+    font-family: 'Lato', sans-serif;
+    color: #000000;
+    font-size: 24px;
+}
+
+.card-description {
+    padding: 0 20px;
+    margin: 0 0 20px 0;
+    color: #999;
+}
+
+.homecard{
+    width: 314px;
+}
+
+.left-box {
+    background-color: #ffa73a;
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 20px;
+}
+
+.right-box {
+    border: 2px solid #ffa73a;
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.about-cards {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.about-card-left {
+    width: 200px;
+    height: 300px;
+    background-color: #ffa73a;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 60px;
+    background-image: url('image/john_1.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.about-card-right {
+    width: 600px;
+    height: auto;
+    min-height: 100%;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 13px;
+    text-align:left;
+}
+
+.article-cards {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.gear-cards {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.contact-cards {
+    padding-top: 50px;
+    height: 590px;
+}  
+
+.article-card-left {
+    width: 361px;
+    height: 346px;
+    background-color: #ffa73a;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 60px;
+    background-image: url('image/mode.png');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.exposure-card-left {
+    width: 400px;
+    height: 244px;
+    background-color: #ffa73a;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 60px;
+    background-image: url('image/aperture.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.lighting-card-left {
+    width: 400px;
+    height: 600px;
+    background-color: #ffa73a;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 60px;
+    background-image: url('image/directsunlight.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+    
+#logo {
+    width: 0px;
+    height: 0;
+    color: rgba(255,255,255,0);
+    padding: 30px;
+    border-radius: 3px;
+    transition: all 0.2s ease;
+    margin: auto;
+    display: block;
+    
+}
+
+footer {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: #333;
+    color: #999;
+    width: : 100%;
+    height: 170px;
+}
+
+.contact-footer {
+    margin-top: 100px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: #333;
+    color: #999;
+    width: : 100%;
+    height: 170px;
+}
+
+.footer-txt {
+    text-align: center;
+    height: auto;
+}
+
+a:link {
+    text-decoration: none;
+    color: #999;
+}
+
+a:visited {
+    text-decoration: none;
+    color: #999;
+}
+
+a:hover {
+    color: #c7c7c7;
+}
+
+
+
+
+
+
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+html{    background:url(http://thekitemap.com/images/feedback-img.jpg) no-repeat;
+  background-size: cover;
+  height:100%;
+}
+
+#feedback-page{
+	text-align:center;
+}
+
+#form-div {
+	background-color:rgba(72,72,72,0.4);
+	padding-left:35px;
+	padding-right:35px;
+	padding-top:35px;
+	padding-bottom:50px;
+	width: 450px;
+	float: left;
+	left: 50%;
+	position: absolute;
+  margin-top:30px;
+	margin-left: -260px;
+  -moz-border-radius: 7px;
+  -webkit-border-radius: 7px;
+}
+
+.feedback-input {
+	color:#3c3c3c;
+	font-family: Helvetica, Arial, sans-serif;
+  font-weight:500;
+	font-size: 18px;
+	border-radius: 0;
+	line-height: 22px;
+	background-color: #fbfbfb;
+	padding: 13px 13px 13px 54px;
+	margin-bottom: 10px;
+	width:100%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+  border: 3px solid rgba(0,0,0,0);
+}
+
+.feedback-input:focus{
+	background: #fff;
+	box-shadow: 0;
+	border: 3px solid #3498db;
+	color: #3498db;
+	outline: none;
+  padding: 13px 13px 13px 54px;
+}
+
+.focused{
+	color:#30aed6;
+	border:#30aed6 solid 3px;
+}
+
+/* Icons ---------------------------------- */
+#name{
+	background-image: url(http://rexkirby.com/kirbyandson/images/name.svg);
+	background-size: 30px 30px;
+	background-position: 11px 8px;
+	background-repeat: no-repeat;
+}
+
+#name:focus{
+	background-image: url(http://rexkirby.com/kirbyandson/images/name.svg);
+	background-size: 30px 30px;
+	background-position: 8px 5px;
+  background-position: 11px 8px;
+	background-repeat: no-repeat;
+}
+
+#email{
+	background-image: url(http://rexkirby.com/kirbyandson/images/email.svg);
+	background-size: 30px 30px;
+	background-position: 11px 8px;
+	background-repeat: no-repeat;
+}
+
+#email:focus{
+	background-image: url(http://rexkirby.com/kirbyandson/images/email.svg);
+	background-size: 30px 30px;
+  background-position: 11px 8px;
+	background-repeat: no-repeat;
+}
+
+#comment{
+	background-image: url(http://rexkirby.com/kirbyandson/images/comment.svg);
+	background-size: 30px 30px;
+	background-position: 11px 8px;
+	background-repeat: no-repeat;
+}
+
+textarea {
+    width: 100%;
+    height: 150px;
+    line-height: 150%;
+    resize:vertical;
+}
+
+input:hover, textarea:hover,
+input:focus, textarea:focus {
+	background-color:white;
+}
+
+#button-blue{
+	font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+	float:left;
+	width: 100%;
+	border: #fbfbfb solid 4px;
+	cursor:pointer;
+	background-color: #3498db;
+	color:white;
+	font-size:24px;
+	padding-top:22px;
+	padding-bottom:22px;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+  margin-top:-4px;
+  font-weight:700;
+}
+
+#button-blue:hover{
+	background-color: rgba(0,0,0,0);
+	color: #0493bd;
+}
+	
+.submit:hover {
+	color: #3498db;
+}
+	
+.ease {
+	width: 0px;
+	height: 74px;
+	background-color: #fbfbfb;
+	-webkit-transition: .3s ease;
+	-moz-transition: .3s ease;
+	-o-transition: .3s ease;
+	-ms-transition: .3s ease;
+	transition: .3s ease;
+}
+
+.submit:hover .ease{
+  width:100%;
+  background-color:white;
+}
+
+@media only screen and (max-width: 580px) {
+	#form-div{
+		left: 3%;
+		margin-right: 3%;
+		width: 88%;
+		margin-left: 0;
+		padding-left: 3%;
+		padding-right: 3%;
+	}
+}
