@@ -19,6 +19,8 @@ body {
     font-size: 15px;
     max-width: 1200px;
     margin: auto;
+    padding-bottom: 30px;
+    padding-top: 20px;
     text-align: right;
 }
 
@@ -70,7 +72,7 @@ a:hover.body-nav-part {
 }
 
 #nav-teal {
-    color: #62B7BB;
+    color: #252525;
 }
 
 a:hover#nav-teal {
@@ -78,27 +80,27 @@ a:hover#nav-teal {
 }
 
 #nav-blue {
-    color: #288bcd;
+    color: #252525;
 }
 
 a:hover#nav-blue {
-    color: #135c8d;
+    color: #307376;
 }
 
 #nav-red {
-    color: #ee5573;
+    color: #252525;
 }
 
 a:hover#nav-red {
-    color: #9a001f;
+    color: #307376;
 }
 
 #nav-yellow {
-    color: #ffa73a;
+    color: #252525;
 }
 
 a:hover#nav-yellow {
-    color: #d27a0e;
+    color: #307376;
 }
 
 /* hero styles */
@@ -180,6 +182,11 @@ a:hover#nav-yellow {
     margin: 0;
     min-width: 1200px;
     position: center;
+}
+
+.insta {
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 /* card contents */
@@ -323,11 +330,11 @@ a.card {
     width: 0px;
     height: 0;
     color: rgba(255,255,255,0);
-    padding: 30px;
     border-radius: 3px;
     transition: all 0.2s ease;
     margin: auto;
     display: block;
+    float: left;
     
 }
 
