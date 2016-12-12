@@ -12,6 +12,22 @@ body {
     min-height: 100%;
 }
 
+.bodytxt {
+    font-size: 15px;
+}
+
+.program {
+    color: #ff0000
+}
+
+.aperture {
+    color: #008000;
+}
+
+.shutter {
+    color: #0000ff;
+}
+
 /* nav */
 
 .main-nav {
@@ -297,7 +313,7 @@ a.card {
     display: inline-block;
     vertical-align: top;
     margin-right: 60px;
-    background-image: url('image/mode.png');
+    background-image: url('image/mode_edit.png');
     background-position: center;
     background-repeat: no-repeat;
 }
