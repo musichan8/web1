@@ -308,12 +308,12 @@ a.card {
 
 .article-card-left {
     width: 361px;
-    height: 346px;
+    height: 691px;
     background-color: #ffa73a;
     display: inline-block;
     vertical-align: top;
     margin-right: 60px;
-    background-image: url('image/mode_edit.png');
+    background-image: url('image/cameradial.jpg');
     background-position: center;
     background-repeat: no-repeat;
 }
